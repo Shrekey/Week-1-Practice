@@ -1,0 +1,204 @@
+1.WAP to print 1-10
+
+Begin
+print("enter the number")
+Numeric i;
+while(i<=10){
+print(i)
+i++;
+}
+end
+
+2.WAP to print 10-1
+
+Begin
+print("enter the number")
+Numeric i=10;
+while(i>=1){
+print(i)
+i--;
+}
+end
+
+3.WAP to print 1-n numbers
+
+Begin
+print("enter the number")
+Numeric i=1,n;
+while(i<=n){
+print(i)
+i++;
+}
+end
+
+4.WAP to print even number between 1-n
+
+Begin
+Numeric i=1,n=10;
+ while(i<=n) {
+   if(i%2==0) {
+    print(i);
+    	  }
+    	  i++;
+      }
+End
+
+5.Wap to print odd number between 1-n
+
+Begin
+Numeric i=1,n=10;
+ while(i<=n) {
+   if(i%2!=0) {
+    print(i);
+    	  }
+    	  i++;
+      }
+End
+
+6.WAP to accept start and stop value and print inbetween values
+
+Begin
+Numeric i=1,n=10;
+     Start=++i;
+     Stop=--n;
+      while(Start<=Stop) {
+    	  print(Start);
+    	  Start++;
+      }
+	}
+End
+
+7.WAP to print the factors of the given number
+
+Begin
+Numeric i=1,n=10;
+      while(i<=n/2) {
+    	  if(n%i==0) {
+         print(i);
+    	  }
+    	  i++;
+      }
+End
+
+8.WAP to print given number is prime or not
+
+Begin
+Numeric i=1,c=0,n=10;
+      while(i<=n/2) {
+    	  if(n%i==0) {
+    		  c++;
+    	  }
+    	  i++;
+      }
+      if (c==2) {
+    	  print("prime");
+      }else {
+    	  print("not prime");
+      }
+End 
+
+9.WAP to find number is perfect number or not
+
+Begin
+n,i=1;  
+ 
+while(i <= n/2)  
+{  
+if(n % i == 0)  
+{  
+ 
+Sum = sum + i;  
+} 
+i++;  
+}  
+if(sum==n)  
+{  
+print(n+" is a perfect number.");  
+}  
+else  { 
+print(n+" is not a perfect number.");   
+}  
+}  
+End
+
+10.WAP to find number of factors
+
+Begin
+Numeric i=1,n=10,c;
+      while(i<=n/2) {
+    	  if(n%i==0) {
+c++
+         print(c);
+    	  }
+    	  i++;
+      }
+End
+
+***************************************************************************
+WAP to print 1-10
+
+Begin
+print("enter the number")
+Numeric i;
+do{
+print(i)
+i++;
+}
+while(i<=10);
+
+}
+end
+
+2.WAP to print 10-1
+
+Begin
+print("enter the number")
+Numeric i=10;
+do{
+print(i)
+i--;
+}
+while(i>=1);
+}
+
+3.WAP to 1-n numbers
+
+
+Begin
+print("enter the number")
+Numeric i=1,n;
+do{
+print(i)
+i++;
+}
+while(i<=n);
+}
+end
+
+4.WAP to even number from 1-n
+
+Begin
+Numeric i=1,n=10;
+do{
+if(i%2==0) {
+    print(i);
+    	  }
+    	  i++;
+}
+ while(i<=n); 
+      }
+End
+
+5.WAP to find odd from 1-n
+
+Begin
+Numeric i=1,n=10;
+do{
+if(i%2!=0) {
+    print(i);
+    	  }
+    	  i++;
+}
+ while(i<=n);
+      }
+End
